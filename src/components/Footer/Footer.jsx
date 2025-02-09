@@ -2,6 +2,7 @@ import React from "react";
 import footer from "./footer.module.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import XIcon from "@mui/icons-material/X";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   return (
@@ -10,6 +11,7 @@ const Footer = () => {
         <div className={footer.fIcons}>
           <FacebookOutlinedIcon />
           <InstagramIcon />
+          <XIcon />
           <YouTubeIcon />
         </div>
         <div className={footer.fData}>
