@@ -1,5 +1,5 @@
 .banner {
-  /* margin-top: 5vh; */
+  margin-top: -10vh;
   height: 80vh;
   margin-bottom: -80px;
   color: white;
@@ -7,13 +7,14 @@
 }
 .bannerContents {
   margin-left: 30px;
-  padding-top: 11%;
-  /* height: 190px; */
+  padding-top: 300px;
+  height: 190px;
 }
 .bannerTitle {
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
+  margin-top: -75px;
 }
 .bannerDescription {
   width: 45rem;
@@ -36,16 +37,19 @@
   background-color: rgba(51, 51, 51, 0.5);
 }
 
+.play {
+  color: #000;
+  background-color: #fff;
+}
+
+
 .bannerButton:hover {
   color: #000;
   background-color: #c6c6c6;
   transition: all0.2s
 }
 
-.play {
-  color: #000;
-  background-color: #fff;
-}
+
 .bannerFadeButton {
   height: 40vh;
   background-image: linear-gradient(

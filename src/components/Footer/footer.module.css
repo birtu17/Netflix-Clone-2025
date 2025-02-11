@@ -6,10 +6,8 @@
 }
 .fContainer {
   width: 60%;
-  /* background-color: red; */
 }
 .fIcons {
-  /* background-color: blue; */
   width: 12%;
   display: flex;
   justify-content: space-between;
@@ -26,7 +24,6 @@
   flex-direction: column;
   justify-content: space-around;
   height: 12vh;
-  /* background-color: blue; */
 }
 .fData ul li {
   cursor: pointer;
