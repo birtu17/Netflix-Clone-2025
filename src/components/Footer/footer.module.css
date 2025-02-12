@@ -1,43 +1,39 @@
-.fOuterContainer {
-  background-color: #111;
-  color: gray;
+.footerOuterContainer {
   display: flex;
   justify-content: center;
+  background-color: #111;
+  color: gray;
+  margin-bottom: 5vh;
 }
-.fContainer {
+.footerContainer {
   width: 60%;
 }
-.fIcons {
+.footerIcons {
+  display: flex;
+  gap: 1rem;
+  color: white;
   width: 12%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0px;
-  color: #fff;
+  margin-bottom: 2vh;
 }
-.fData {
+.footerData {
   display: flex;
   justify-content: space-between;
 }
-.fData ul {
+.footerData ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 12vh;
-}
-.fData ul li {
   cursor: pointer;
 }
-.service_code {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.serviceCode {
   border: #fff 1px solid;
-  width: 10%;
+  width: 12%;
   margin: 10px 0;
+  text-align: center;
   cursor: pointer;
 }
-.copy_write {
+.copyWrite {
   font-size: 12px;
-  margin-bottom: 10px;
 }

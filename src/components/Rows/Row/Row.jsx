@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import row from "./Row.module.css";
+import style from "./Row.module.css";
 import axios from "../../../utils/axios";
 import movieTrailer from "movie-trailer";
 import YouTube from "react-youtube"
@@ -39,9 +39,9 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   const opts = { height: "390", width: "100%", playerVars: { autoplay: 1 } };
 
   return (
-    <div className={`${row.row} ${row.fontEffectFireAnimation}`}>
+    <div className={`${style.row} ${style.fontEffectFireAnimation}`}>
       <h2>{title}</h2>
-      <div className={row.rowPosters}>
+      <div className={style.rowPosters}>
         {movies?.map((movie, index) => (
           <img
           onClick={()=>handleClick(movie)}
@@ -50,7 +50,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
               isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
             alt={movie.name}
-            className={`${row.rowPoster} ${isLargeRow && row.rowPosterLarge}`}
+            className={`${style.rowPoster} ${isLargeRow && style.rowPosterLarge}`}
           />
         ))}
       </div>

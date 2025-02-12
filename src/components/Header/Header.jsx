@@ -1,5 +1,5 @@
 import React from "react";
-import header from "./header.module.css";
+import style from "./header.module.css";
 import NetflixLogo from "../../assets/images/netflixLogo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
@@ -7,9 +7,9 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const Header = () => {
   return (
-    <div className={header.hOuterContainer}>
-      <div className={header.hContainer}>
-        <div className={header.hleft}>
+    <div className={style.headerOuterContainer}>
+      <div className={style.headerContainer}>
+        <div className={style.headerLeft}>
           <ul>
             <li>
               <img src={NetflixLogo} alt="Netflix log" width="100" />
@@ -22,7 +22,7 @@ const Header = () => {
             <li>Browse by languages</li>
           </ul>
         </div>
-        <div className={header.hright}>
+        <div className={style.headerRight}>
           <ul>
             <li>
               <SearchIcon />

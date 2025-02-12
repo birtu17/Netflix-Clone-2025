@@ -42,13 +42,11 @@
   background-color: #fff;
 }
 
-
 .bannerButton:hover {
   color: #000;
   background-color: #c6c6c6;
   transition: all0.2s
 }
-
 
 .bannerFadeButton {
   height: 40vh;
