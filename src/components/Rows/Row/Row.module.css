@@ -26,15 +26,15 @@
 .row {
   margin-left: 20px;
   color: rgb(192, 187, 187);
-  font-family: 'Roboto', sans-serif;
-  font-style: italic; 
-  font-weight: 200; 
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 200;
   font-size: 15px;
 }
 .fontEffectFireAnimation {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
-  color: whitesmoke; 
+  color: whitesmoke;
   text-transform: uppercase;
   animation: fire 2s infinite alternate;
 }
@@ -49,3 +49,7 @@
     transform: scale(1.03);
   }
 }
+
+
+
+

@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import axios from "../../utils/axios";
 import requests from "../../utils/requests";
@@ -29,7 +28,6 @@ const Banner = () => {
     <div
       className={style.banner}
       style={{
-        backgroundSize: "cover",
         backgroundImage: `url(https://image.tmdb.org/t/p/original${movie?.backdrop_path})`,
       }}
     >

@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./footer.module.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";

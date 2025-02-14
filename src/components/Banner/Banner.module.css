@@ -1,5 +1,6 @@
 .banner {
-  margin-top: -10vh;
+  background-size: cover;
+  margin-top: 0.5rem;
   height: 80vh;
   margin-bottom: -80px;
   color: white;
@@ -8,10 +9,10 @@
 .bannerContents {
   margin-left: 30px;
   padding-top: 300px;
-  height: 190px;
+  height: 120px;
 }
 .bannerTitle {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
   margin-top: -75px;
@@ -23,6 +24,7 @@
   font-size: 1rem;
   max-width: 360px;
   height: 80px;
+ 
 }
 .bannerButton {
   cursor: pointer;
@@ -45,11 +47,11 @@
 .bannerButton:hover {
   color: #000;
   background-color: #c6c6c6;
-  transition: all0.2s
+  transition: all0.2s;
 }
 
 .bannerFadeButton {
-  height: 40vh;
+  height: 25vh;
   background-image: linear-gradient(
     180deg,
     transparent,
