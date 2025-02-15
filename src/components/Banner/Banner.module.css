@@ -1,8 +1,8 @@
 .banner {
   background-size: cover;
-  margin-top: 0.5rem;
+  margin-top: -5vh;
   height: 80vh;
-  margin-bottom: -80px;
+  margin-bottom: -40px;
   color: white;
   object-fit: contain;
 }
@@ -51,7 +51,7 @@
 }
 
 .bannerFadeButton {
-  height: 25vh;
+  height: 35vh;
   background-image: linear-gradient(
     180deg,
     transparent,
