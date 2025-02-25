@@ -39,7 +39,7 @@
   animation: fire 2s infinite alternate;
 }
 
-@keyframes fire {
+/* @keyframes fire {
   0% {
     text-shadow: 0 0 5px #696665, 0 0 10px #83807f, 0 0 15px #d3cdcb;
     transform: scale(1);
@@ -48,7 +48,7 @@
     text-shadow: 0 0 15px #696665, 0 0 15px #83807f, 0 0 15px #d3cdcb;
     transform: scale(1.03);
   }
-}
+} */
 
 
 
